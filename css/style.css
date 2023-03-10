@@ -1,0 +1,383 @@
+body{
+/*	font-family: 'Open Sans', sans-serif; */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	background:#f1f4f8;
+}
+p, li {
+    font-size: 13.5px;
+    line-height: 22px;
+    font-weight: 300;
+}
+
+ol, ul {
+    padding-left: 15px;
+}
+.fontSize18px{
+	font-size:18px;
+}
+h4, .h4 {
+    font-size: 18px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+.padding-l1{
+	padding-left:30px!important;
+}
+.img_res{
+	width:100%;
+}
+.somi{
+	padding:0;
+}
+.logo{
+	width: 100%;
+    max-width: 450px;
+    padding: 15px 10px;
+}
+.logoBar{
+	background:#023b5e;
+}
+.navbar-inverse {
+    background-color: #023b5e;
+    border-color: #0c507b;
+    border-radius: 0;
+    border: none;
+    border-top: 2px solid #0c507b;
+    margin-bottom: 0;
+	/* box-shadow: 2px 3px 7px #000; */
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+}
+.ccontWithBorder{
+	border:1px solid #dcdcdc;
+}
+.bgColor2{
+	    background: #f3f0eb;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.bgColor3{
+	    background: #fc8c34;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+	color:#fff;
+}
+.bgColor4{
+	    background: #f3f0eb;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.bgColor5{
+	    background: #023b5e;
+    padding-top: 1em;
+    padding-bottom: 1em;
+	color:#fff;
+}
+
+.nav-tabs>li>a:hover {
+    border-color: rgba(255, 255, 255, 0);
+    color: #555;
+}
+.customHeading111 {
+    color: #023b5e;
+}
+.paddLeft15{
+  float: left;
+}
+.ccontWithBorder {
+    border: 1px solid #dcdcdc;
+	background: #fff;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #023b5e;
+    background-color: #ffffff;
+}
+.enquireBtn {
+    border: none;
+    border-bottom: none;
+    cursor: pointer;
+    width: 170px;
+    height: 34px;
+    overflow: hidden;
+    background: #e7af18;
+    color: #ffffff;
+    padding: 2px 0px 2px 0px;
+    position: fixed;
+    top: calc(50% - 42px);
+    right: -68px;
+    text-align: center;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    z-index: 9999999;
+    font-size: 18px;
+}
+.enquireNowFormCont{
+	position:fixed;
+	top:0;
+	right:0;
+	min-height:100vh;
+	background:#FFF;
+	z-index:9999999;
+	width: 101%;
+	padding:15px;
+	max-width:500px;
+	margin-right:-105%;
+	transition:all .5s ease;
+}
+.closeBtn{
+	background: #000;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    margin-left: -30px;
+    top: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 7px;
+	cursor:pointer;
+}
+.enableEnquire{
+	margin-right:0;
+}
+.active11{
+	position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.42);
+    z-index: 9999;
+    width: 100%;
+}
+
+.whitebox{
+	background:#fff;
+	margin-bottom:30px;
+}
+.whitebox h4{
+	color: #000;
+    line-height: 28px;
+    border-bottom: 1px solid #023b5e;
+    padding-bottom: 19px;
+    margin-bottom: 15px;
+}
+.naacblock h4{
+	color: #fff;
+    line-height: 28px;
+}
+.whitebox a{
+	color:#000;
+	line-height: 37px;
+}
+
+
+@media only screen and (max-width: 680px){
+.box5 {
+    width: 100%;
+}
+}
+@media only screen and (max-width: 680px) {
+  .logo {
+		width: 100%;
+		/* margin-bottom: 4vh; */
+	}
+	.text-center-mobile{
+		text-align:center;
+	}
+	.cstmBlock5 {
+		width: 100%;
+		position: relative;
+		float: left;
+		background: #ffffff;
+		min-height: 150px;
+		padding: 0px 15px;
+	}
+	.mgt2 {
+		margin-top: 0;
+	}
+	.mobPadding15{
+		padding-left:15px;
+		padding-right:15px;
+	}
+	.mob-text-left{
+		text-align:left;
+	}
+	.box5 {
+		width: 100%;
+	}
+	.mob-no-padding{
+		padding:0;
+	}
+	
+	.closeBtn {
+		margin-left: 0;
+	}
+	.mnHt {
+		min-height: 1px;
+	}
+	.menu-item a {
+		color: #ffffff;
+	}
+	.minMMg1 {
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+	.titleForMob {
+		margin-top: 10px;
+	}
+	.newsTitle {
+		margin-bottom: 1em;
+	}
+	.newsTitle h4 {
+		font-size: 16px;
+	}
+	.mobHide{
+		display:none;
+	}
+	.mobShow{
+		display:block;
+	}
+	.boxStyle1 {
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+	.mgVh {
+		margin-top: 0;
+	}
+	h3, .h3 {
+		font-size: 20px;
+	}
+	h2, .h2 {
+		font-size: 23px;
+	}
+	.nimm {
+		font-size: 15px;
+	}
+	.mobPadd15{
+		padding-left:15px;
+		padding-right:15px;
+	}
+	.btm0{
+		margin-bottom:0;
+	}
+	.active1 a {
+		color: #ffffff!important;
+		background-color: rgba(255, 255, 255, 0)!important;
+	}
+	.mgLft12{
+		margin-left:0;
+	}
+	.col-md-3-center-align {
+		margin-left: 0;
+	}
+	.minMMgAb {
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+	.col-md-4-center {
+		margin-left: 0;
+	}
+	.contactmnu {
+		float: left;
+	}
+	
+	.cstmClassH{
+		padding-top: 30px;
+		padding-bottom: 18px;
+	}
+	.playBtn {
+		top: 22%;
+	}
+	.minGap{
+		padding:0;
+	}
+	.mobNoPadd{
+		padding:0;
+	}
+	.bgColor121 {
+    background: none;
+    color: #fff;
+    border: none;
+    margin-bottom: 25px;
+}
+.bgColor121 .nav-tabs>li>a {
+    border: none;
+    border-radius: 0;
+    color: #FFFFFF;
+    background: #023b5e;
+    margin-bottom: 10px;
+    min-width: 210px;
+}
+.bgColor121 .nav-tabs>li.active>a,.bgColor121  .nav-tabs>li.active>a:focus,.bgColor121 .nav-tabs>li.active>a:hover {
+    border: none;
+    color: #fff;
+    background: #C0C0C0;
+}
+.menuHd {
+    color: #fff;
+}
+.clrWht {
+    color: #ddd;
+}
+.textClr11 {
+    color: #ddd;
+}
+}
+
+@media (min-width: 768px){
+    .navbar-nav{
+        float:none!important;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+}
+
+.headerh2 {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+	margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bannerTitle1 h1 {
+    margin: 0;
+    padding: 13px;
+    font-size: 24px;
+}
+
+.whitebox h2 {
+    color: #000;
+    line-height: 28px;
+    border-bottom: 1px solid #023b5e;
+    padding-bottom: 19px;
+    margin-bottom: 15px;
+}
+
+.naacblock h2 {
+    color: #fff;
+    line-height: 28px;
+}
+
+@media only screen and (max-width: 680px) {
+.bannerTitle1 h1 {
+    font-size: 20px;
+}
+.titleCont p {
+    padding: 0;
+    margin: 4px 0;
+    font-size:14px;
+}
+}
